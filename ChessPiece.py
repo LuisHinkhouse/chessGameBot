@@ -26,4 +26,24 @@ danger = False
 # represents the piece is not killed yet, True == not dead, False == dead
 alive = True
 # represents the piece's sole property, True == can move back, False == can't move back
-moveback =  
+moveBack = False
+# represents the piece's sole property of crossing over another piece, which is only "Knight", True == can, False == can't
+moveOver = False
+# represents the piece's ability to transform into another piece by reaching to the end line, wihch is only "Pawn", True == can, False == can't
+switch = False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
